@@ -1,0 +1,2069 @@
+@font-face {
+  font-family: "work";
+  src: url(..//font/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: "prata";
+  src: url(..//font/Prata-Regular.ttf);
+}
+.one {
+  width: 100%;
+  height: 100vh;
+}
+.one > .row {
+  width: 100%;
+  height: 100%;
+}
+.one > .row > * {
+  width: 100%;
+}
+.one > .row > div {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.489);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.one > .row > div > div:nth-of-type(1) {
+  height: 100%;
+  width: 100%;
+}
+.one > .row > div > div:nth-of-type(1) > video {
+  width: 100%;
+  height: 100%;
+  scale: 1.2;
+}
+.one > .row > div > div:nth-of-type(2) {
+  height: 65%;
+  width: 80%;
+  position: absolute;
+  top: 20vh;
+  left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div > div:nth-of-type(2) > * {
+  color: white;
+}
+.one > .row > div > div:nth-of-type(2) > section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.one > .row > div > div:nth-of-type(2) > section:first-child {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 50px;
+}
+.one > .row > div > div:nth-of-type(2) > section:first-child > h1 {
+  font-size: 150px;
+  font-weight: normal;
+}
+.one > .row > div > div:nth-of-type(2) > section:first-child > h2 {
+  font-size: 150px;
+  font-family: "prata";
+  font-weight: lighter;
+  margin-right: 30px;
+}
+.one > .row > div > div:nth-of-type(2) > section:first-child > h3 {
+  font-size: 150px;
+  font-weight: normal;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child {
+  width: 70%;
+  height: 30%;
+  border-top: 2px solid white;
+  justify-content: space-between;
+  z-index: 1;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > * {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 30px;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > span {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > span > a {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(34, 34, 34);
+  position: relative;
+  overflow: hidden;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > span > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.one > .row > div > div:nth-of-type(2) > section:last-child > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 60px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.195);
+  transition: 0.4s;
+}
+.one > .row > nav {
+  position: fixed;
+  height: 10vh;
+  background-color: black;
+  padding-top: 10px;
+  z-index: 2;
+}
+.one > .row > nav > .row {
+  width: 100%;
+  height: 100%;
+}
+.one > .row > nav > .row > * {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > nav > .row > div > * {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.one > .row > nav > .row > div:nth-of-type(1) {
+  width: 15%;
+}
+.one > .row > nav > .row > div:nth-of-type(1) > figure > img {
+  cursor: pointer;
+}
+.one > .row > nav > .row > div:nth-of-type(2) {
+  width: 70%;
+}
+.one > .row > nav > .row > div:nth-of-type(2) > ul > li {
+  height: 100%;
+  margin: 0 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.one > .row > nav > .row > div:nth-of-type(2) > ul > li:first-child ::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  left: 0;
+  top: 40px;
+}
+.one > .row > nav > .row > div:nth-of-type(2) > ul > li:hover::after {
+  background-color: white;
+}
+.one > .row > nav > .row > div:nth-of-type(2) > ul > li::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 30%;
+  right: -8px;
+  transition: 0.4s;
+}
+.one > .row > nav > .row > div:nth-of-type(2) > ul > li > a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > nav > .row > div:nth-of-type(3) {
+  width: 15%;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul {
+  height: 100%;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li {
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child {
+  width: 30%;
+  margin-right: 15px;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child > ul {
+  width: 200px;
+  position: absolute;
+  border-top: 40px solid rgba(0, 0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  top: 55px;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child > ul > li {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(33, 33, 33);
+  align-items: center;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child > ul > li:hover {
+  background-color: rgb(57, 57, 57);
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child > ul > li > a {
+  font-size: 13px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child:hover::after {
+  background-color: white;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:first-child::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 30%;
+  right: 3px;
+  transition: 0.4s;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child:hover > a:first-child {
+  top: -40px;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child:hover > a:last-child {
+  top: 20px;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child > a:first-child {
+  top: 20px;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child > a:last-child {
+  top: 80px;
+}
+.one > .row > nav > .row > div:nth-of-type(3) > ul > li:last-child > a > i {
+  font-size: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.one > .row > span {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.one > .row > span:hover > nav {
+  right: 200px;
+}
+.one > .row > span > * {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.one > .row > span > nav {
+  transition: 1s;
+}
+.one > .row > span > nav > * {
+  height: 30px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > span > nav > p {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+  font-style: italic;
+  transition: 0.4s;
+  text-shadow: 5px 5px 5px white;
+}
+.one > .row > span > nav > p:hover {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.one > .row > span > nav > div > a {
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background-color: white;
+}
+.one > .row > span > nav > div > a:hover {
+  background-color: black;
+  box-shadow: 0 0 10px gray;
+}
+.one > .row > span > nav > div > a:hover > i {
+  color: white;
+}
+.one > .row > span > nav > div > a > i {
+  font-size: 30px;
+  color: black;
+  transition: 0.4s;
+}
+.one > .row > span > span {
+  z-index: 1;
+  cursor: pointer;
+}
+.one > .row > span > span > figure {
+  width: 200px;
+  height: 200px;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.one > .row > span > span > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.two {
+  width: 100%;
+  height: 70vh;
+}
+.two > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+.two > .row > * {
+  font-weight: normal;
+}
+.two > .row > h2 {
+  width: 170px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: 17px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > h3 {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 80px;
+  padding: 0 300px;
+}
+.two > .row > h3 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+
+.three {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.three > .row {
+  width: 85%;
+  height: 100%;
+}
+.three > .row > * {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.three > .row > div:nth-of-type(1) {
+  width: 40%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.three > .row > div:nth-of-type(1) > figure {
+  width: 80%;
+  height: 72%;
+  position: relative;
+}
+.three > .row > div:nth-of-type(1) > figure > img {
+  width: 300px;
+  height: 430px;
+  border-radius: 5px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.three > .row > div:nth-of-type(1) > figure > img:last-child {
+  right: 0;
+  bottom: 0;
+}
+.three > .row > div:nth-of-type(2) {
+  width: 40%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.three > .row > div:nth-of-type(2) > section {
+  width: 90%;
+  height: 72%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.three > .row > div:nth-of-type(2) > section > * {
+  padding-left: 30px;
+}
+.three > .row > div:nth-of-type(2) > section > p {
+  font-family: "work";
+}
+.three > .row > div:nth-of-type(2) > section > p:nth-of-type(1) {
+  font-size: 25px;
+  line-height: 38px;
+  color: rgb(43, 43, 43);
+}
+.three > .row > div:nth-of-type(2) > section > p:nth-of-type(2) {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(77, 76, 76);
+}
+.three > .row > div:nth-of-type(2) > section > span > a {
+  width: 170px;
+  height: 55px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.three > .row > div:nth-of-type(2) > section > span > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.three > .row > div:nth-of-type(2) > section > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.363);
+  transition: 0.4s;
+}
+.three > .row > div:nth-of-type(3) {
+  width: 20%;
+  justify-content: flex-end;
+}
+.three > .row > div:nth-of-type(3) > figure {
+  width: 75%;
+  height: 72%;
+  display: flex;
+}
+.three > .row > div:nth-of-type(3) > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.four {
+  width: 100%;
+  height: 220vh;
+  display: flex;
+  justify-content: center;
+}
+.four > .row {
+  width: 85%;
+  height: 100%;
+}
+.four > .row > section {
+  width: 50%;
+  height: 200vh;
+}
+.four > .row > section:nth-of-type(1) {
+  display: flex;
+}
+.four > .row > section:nth-of-type(1) > div {
+  width: 85%;
+  height: 40%;
+  position: sticky;
+  top: 100px;
+  left: 0;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+.four > .row > section:nth-of-type(1) > div > * {
+  width: 100%;
+}
+.four > .row > section:nth-of-type(1) > div > div {
+  display: flex;
+}
+.four > .row > section:nth-of-type(1) > div > div > h2 {
+  border: 1px solid black;
+  border-radius: 30px;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 8px;
+}
+.four > .row > section:nth-of-type(1) > div > h3 {
+  font-size: 80px;
+}
+.four > .row > section:nth-of-type(1) > div > h3 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.four > .row > section:nth-of-type(1) > div > p {
+  font-size: 18px;
+  font-family: "work";
+  color: rgb(60, 60, 60);
+  padding-right: 20px;
+  line-height: 30px;
+}
+.four > .row > section:nth-of-type(1) > div > span > a {
+  width: 200px;
+  height: 55px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.four > .row > section:nth-of-type(1) > div > span > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.four > .row > section:nth-of-type(1) > div > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 60px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.363);
+  transition: 0.4s;
+}
+.four > .row > section:nth-of-type(2) {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.four > .row > section:nth-of-type(2) > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.four > .row > section:nth-of-type(2) > div > article {
+  width: 300px;
+  height: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+}
+.four > .row > section:nth-of-type(2) > div > article > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.four > .row > section:nth-of-type(2) > div > article > h2 {
+  font-weight: normal;
+  font-size: 20px;
+  padding: 0 80px;
+}
+.four > .row > section:nth-of-type(2) > div > article > figure {
+  width: 160px;
+  height: 220px;
+}
+.four > .row > section:nth-of-type(2) > div > article > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 80px;
+}
+.four > .row > section:nth-of-type(2) > div > article > p {
+  font-family: "work";
+}
+.four > .row > section:nth-of-type(2) > div > article > p:nth-of-type(1) {
+  font-size: 20px;
+}
+.four > .row > section:nth-of-type(2) > div > article > p:nth-of-type(2) {
+  padding: 0 30px;
+  line-height: 30px;
+  color: rgb(72, 71, 71);
+}
+.four > .row > section:nth-of-type(2) > div > article > span > a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  transition: 0.4s;
+}
+.four > .row > section:nth-of-type(2) > div > article > span > a:hover {
+  background-color: black;
+}
+.four > .row > section:nth-of-type(2) > div > article > span > a:hover > i {
+  color: white;
+}
+.four > .row > section:nth-of-type(2) > div > article > span > a > i {
+  color: black;
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(1) {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(2) {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(3) {
+  grid-row: 3/5;
+  grid-column: 1/2;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(4) {
+  grid-row: 2/4;
+  grid-column: 2/3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(5) {
+  grid-row: 4/6;
+  grid-column: 2/3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.484);
+}
+.four > .row > section:nth-of-type(2) > div:nth-of-type(6) {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+
+.five {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+}
+.five > .row {
+  width: 85%;
+  height: 100%;
+}
+.five > .row > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.five > .row > div:nth-of-type(1) {
+  height: 60vh;
+  align-content: center;
+}
+.five > .row > div:nth-of-type(1) > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div:nth-of-type(1) > div > h3 {
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-weight: normal;
+}
+.five > .row > div:nth-of-type(1) > h2 {
+  width: 100%;
+  font-size: 80px;
+  padding: 0 150px;
+  text-align: center;
+}
+.five > .row > div:nth-of-type(1) > h2 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.five > .row > div:nth-of-type(2) {
+  height: 70vh;
+  align-items: flex-start;
+}
+.five > .row > div:nth-of-type(2) > nav {
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(159, 157, 157);
+}
+.five > .row > div:nth-of-type(2) > nav > div {
+  width: 200px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.4s;
+}
+.five > .row > div:nth-of-type(2) > nav > div > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div:nth-of-type(2) > nav > div > a:hover > i {
+  padding-bottom: 20px;
+}
+.five > .row > div:nth-of-type(2) > nav > div > a > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div:nth-of-type(2) > nav > div > a > i {
+  font-size: 50px;
+  transition: 0.4s;
+  height: 60%;
+}
+.five > .row > div:nth-of-type(2) > nav > div > a > p {
+  height: 40%;
+  font-size: 20px;
+  font-family: "work";
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(1) {
+  border-bottom: 2px solid black;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(1) > div {
+  width: 640%;
+  left: -120px;
+  z-index: 1;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(2):hover {
+  border-bottom: 2px solid black;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(2):hover > div {
+  opacity: 1;
+  z-index: 1;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(2) > div {
+  width: 640%;
+  left: -330px;
+  opacity: 0;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(3):hover {
+  border-bottom: 2px solid black;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(3):hover > div {
+  opacity: 1;
+  z-index: 1;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(3) > div {
+  width: 640%;
+  left: -540px;
+  opacity: 0;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(4):hover {
+  border-bottom: 2px solid black;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(4):hover > div {
+  opacity: 1;
+  z-index: 1;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(4) > div {
+  width: 640%;
+  left: -750px;
+  opacity: 0;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(5):hover {
+  border-bottom: 2px solid black;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(5):hover > div {
+  opacity: 1;
+  z-index: 1;
+}
+.five > .row > div:nth-of-type(2) > nav > div:nth-of-type(5) > div {
+  width: 640%;
+  left: -960px;
+  opacity: 0;
+}
+.five > .row > div:nth-of-type(2) > nav > div > div {
+  width: 640%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  top: 20vh;
+  transition: 0.4s;
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 70px;
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span > p {
+  font-size: 18px;
+  color: rgb(90, 88, 88);
+  line-height: 30px;
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span:nth-of-type(1) > * {
+  width: 100%;
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span:nth-of-type(1) > p {
+  font-family: "work";
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span:nth-of-type(1) > p:nth-of-type(1) {
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+}
+.five > .row > div:nth-of-type(2) > nav > div > div > span:nth-of-type(1) > p:nth-of-type(2) {
+  font-size: 15px;
+  color: rgb(82, 80, 80);
+  margin-bottom: 30px;
+}
+
+.six {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row > section {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 110px;
+  padding-right: 100px;
+  background-color: black;
+  border-radius: 10px;
+  position: sticky;
+  top: 20px;
+  left: 0;
+}
+.six > .row > section > * {
+  width: 100%;
+}
+.six > .row > section > h3 {
+  font-size: 50px;
+  color: white;
+}
+.six > .row > section > h3 > span {
+  font-size: 50px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.six > .row > section > P {
+  font-size: 17px;
+  font-family: "work";
+  color: white;
+  line-height: 30px;
+  margin: 50px 0;
+}
+.six > .row > section > span {
+  display: flex;
+}
+.six > .row > section > span > a {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+.six > .row > section > span > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.six > .row > section > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.212);
+  transition: 0.4s;
+}
+.six > .row > div {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+}
+.six > .row > div > figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.six > .row > figure {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  position: absolute;
+  right: 49%;
+  top: 20px;
+}
+.six > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.2;
+}
+
+.seven {
+  width: 100%;
+  height: 80vh;
+}
+.seven > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-content: space-evenly;
+  padding: 0 280px;
+}
+.seven > .row > * {
+  width: 100%;
+  text-align: center;
+}
+.seven > .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seven > .row > div > h2 {
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-weight: normal;
+  padding: 10px;
+}
+.seven > .row > h3 {
+  font-size: 80px;
+}
+.seven > .row > h3 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.seven > .row > p {
+  font-size: 18px;
+  font-family: "work";
+  color: rgb(74, 74, 74);
+  line-height: 30px;
+}
+
+.eight {
+  width: 100%;
+  height: 100vh;
+}
+.eight > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.eight > .row > article {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.eight > .row > article:hover > figure > img {
+  width: 110%;
+  height: 110%;
+}
+.eight > .row > article:hover > figcaption {
+  padding-left: 10px;
+}
+.eight > .row > article:hover > span {
+  padding-left: 10px;
+}
+.eight > .row > article > * {
+  width: 100%;
+  font-family: "work";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.eight > .row > article > figure {
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.eight > .row > article > figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s;
+}
+.eight > .row > article > figcaption {
+  height: 15%;
+  font-size: 25px;
+  transition: 0.4s;
+}
+.eight > .row > article > span {
+  height: 10%;
+  font-size: 15px;
+  color: rgb(73, 72, 72);
+  transition: 0.4s;
+}
+
+.nine {
+  width: 100%;
+  height: 40vh;
+}
+.nine > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.nine > .row > marquee {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.nine > .row > marquee > span {
+  font-size: 200px;
+  margin-right: 100px;
+}
+
+.ten {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ten > .row {
+  width: 85%;
+  height: 100%;
+  position: relative;
+}
+.ten > .row > * {
+  width: 100%;
+  display: flex;
+}
+.ten > .row > div {
+  display: flex;
+}
+.ten > .row > div:nth-of-type(1) {
+  height: 30vh;
+  align-items: flex-end;
+}
+.ten > .row > div:nth-of-type(1) > figure {
+  width: 520px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ten > .row > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+  z-index: 1;
+}
+.ten > .row > div:nth-of-type(2) {
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 180px;
+}
+.ten > .row > div:nth-of-type(2) > section {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.ten > .row > div:nth-of-type(2) > section > div {
+  display: flex;
+}
+.ten > .row > div:nth-of-type(2) > section > div > * {
+  height: 100%;
+}
+.ten > .row > div:nth-of-type(2) > section > div > div {
+  width: 10%;
+  font-size: 20px;
+  display: flex;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > * {
+  width: 100%;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > figure {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > figure > img {
+  width: 60px;
+  height: 60px;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > h2 {
+  font-size: 50px;
+  width: 60%;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > h2 > span {
+  font-size: 50px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.ten > .row > div:nth-of-type(2) > section > div > article > p {
+  font-size: 16px;
+  font-family: "work";
+  color: rgb(70, 70, 70);
+  line-height: 30px;
+  margin: 10px 50px 0 0;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(1) {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(2) {
+  grid-row: 1/span 3;
+  grid-column: 2/3;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(3) {
+  grid-row: 2/span 3;
+  grid-column: 1/2;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(4) {
+  grid-row: 4/span 3;
+  grid-column: 2/3;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(5) {
+  grid-row: 5/span 3;
+  grid-column: 1/2;
+}
+.ten > .row > div:nth-of-type(2) > section > div:nth-of-type(6) {
+  grid-row: 7/8;
+  grid-column: 2/3;
+}
+
+.eleven {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eleven > .row {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.eleven > .row > div {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  position: sticky;
+  top: 20px;
+  left: 0;
+}
+.eleven > .row > div > figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.eleven > .row > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.eleven > .row > div > figure > figure {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.eleven > .row > div > figure > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: white;
+  border-radius: 50%;
+}
+.eleven > .row > section {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 50px;
+  padding-right: 100px;
+  background-color: black;
+  border-radius: 10px;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+}
+.eleven > .row > section > * {
+  width: 100%;
+}
+.eleven > .row > section > h3 {
+  font-size: 60px;
+  color: white;
+}
+.eleven > .row > section > h3 > span {
+  font-size: 60px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.eleven > .row > section > P {
+  font-size: 17px;
+  font-family: "work";
+  color: white;
+  line-height: 30px;
+  margin: 50px 0;
+}
+.eleven > .row > section > div {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.eleven > .row > section > div > span {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.eleven > .row > section > div > span > i {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.eleven > .row > section > div > span > p {
+  color: white;
+  font-size: 20px;
+}
+.eleven > .row > figure {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  position: absolute;
+  right: 37%;
+  top: 0;
+  z-index: 1;
+}
+.eleven > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.2;
+}
+
+.twelve {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twelve > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.twelve > .row > div {
+  width: 85%;
+}
+.twelve > .row > div:nth-of-type(1) {
+  align-content: space-evenly;
+  justify-content: center;
+  height: 40%;
+}
+.twelve > .row > div:nth-of-type(1) > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.twelve > .row > div:nth-of-type(1) > h3 {
+  width: 50%;
+  font-size: 80px;
+}
+.twelve > .row > div:nth-of-type(1) > h3 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+  padding-left: 30px;
+}
+.twelve > .row > div:nth-of-type(1) > p {
+  width: 70%;
+  font-size: 17px;
+  font-family: "work";
+  color: rgb(72, 71, 71);
+  line-height: 30px;
+}
+.twelve > .row > div:nth-of-type(2) {
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+.twelve > .row > div:nth-of-type(2) > div {
+  width: 32%;
+  height: 75%;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 10px gray;
+}
+.twelve > .row > div:nth-of-type(2) > div > * {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "work";
+}
+.twelve > .row > div:nth-of-type(2) > div > i {
+  font-size: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.twelve > .row > div:nth-of-type(2) > div > p {
+  font-size: 22px;
+  line-height: 30px;
+  height: 70%;
+  color: rgb(43, 42, 42);
+}
+.twelve > .row > div:nth-of-type(2) > div > section {
+  height: 30%;
+  justify-content: flex-start;
+}
+.twelve > .row > div:nth-of-type(2) > div > section > figure {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.twelve > .row > div:nth-of-type(2) > div > section > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.twelve > .row > div:nth-of-type(2) > div > section > span {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.twelve > .row > div:nth-of-type(2) > div > section > span > * {
+  width: 100%;
+  font-weight: normal;
+}
+.twelve > .row > div:nth-of-type(2) > div > section > span > * > h4 {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+}
+.twelve > .row > div:nth-of-type(2) > div > section > span > * > h4 {
+  font-size: 15px;
+  color: gray;
+}
+
+.thirteen {
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirteen > .row {
+  width: 85%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+.thirteen > .row > div {
+  width: 100%;
+}
+.thirteen > .row > div:nth-of-type(1) {
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.thirteen > .row > div:nth-of-type(1) > div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-evenly;
+}
+.thirteen > .row > div:nth-of-type(1) > div > * {
+  width: 100%;
+}
+.thirteen > .row > div:nth-of-type(1) > div > div {
+  display: flex;
+}
+.thirteen > .row > div:nth-of-type(1) > div > div > h2 {
+  border: 1px solid black;
+  border-radius: 30px;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 8px;
+}
+.thirteen > .row > div:nth-of-type(1) > div > h3 {
+  font-size: 80px;
+}
+.thirteen > .row > div:nth-of-type(1) > div > h3 > span {
+  font-size: 80px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.thirteen > .row > div:nth-of-type(1) > div > p {
+  font-size: 18px;
+  font-family: "work";
+  color: rgb(60, 60, 60);
+  padding-right: 20px;
+  line-height: 30px;
+}
+.thirteen > .row > div:nth-of-type(1) > div > span > a {
+  width: 150px;
+  height: 55px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.thirteen > .row > div:nth-of-type(1) > div > span > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.thirteen > .row > div:nth-of-type(1) > div > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 60px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.363);
+  transition: 0.4s;
+}
+.thirteen > .row > div:nth-of-type(2) {
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.thirteen > .row > div:nth-of-type(2) > section {
+  width: 32%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.thirteen > .row > div:nth-of-type(2) > section:nth-of-type(1) {
+  margin-bottom: 100px;
+}
+.thirteen > .row > div:nth-of-type(2) > section:nth-of-type(2) {
+  margin-bottom: 200px;
+}
+.thirteen > .row > div:nth-of-type(2) > section:nth-of-type(3) {
+  margin-bottom: 300px;
+}
+.thirteen > .row > div:nth-of-type(2) > section > * {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.thirteen > .row > div:nth-of-type(2) > section > figure {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.thirteen > .row > div:nth-of-type(2) > section > figure:hover > img {
+  transform: scale(1.05);
+}
+.thirteen > .row > div:nth-of-type(2) > section > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.4s;
+}
+.thirteen > .row > div:nth-of-type(2) > section > a {
+  font-size: 22px;
+  height: 20%;
+  line-height: 30px;
+}
+.thirteen > .row > div:nth-of-type(2) > section > a:hover {
+  text-decoration: underline;
+}
+.thirteen > .row > div:nth-of-type(2) > section > p {
+  font-size: 15px;
+  color: rgb(69, 68, 68);
+  height: 10%;
+}
+
+.fourteen {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/section-bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fourteen > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.fourteen > .row > div {
+  width: 45%;
+  height: 50%;
+}
+.fourteen > .row > div > section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.fourteen > .row > div > section:nth-of-type(1) {
+  height: 60%;
+  justify-content: center;
+}
+.fourteen > .row > div > section:nth-of-type(1) h3 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 0 30px;
+}
+.fourteen > .row > div > section:nth-of-type(1) h3 > span {
+  font-size: 50px;
+  font-family: "prata";
+  font-weight: lighter;
+  color: white;
+}
+.fourteen > .row > div > section:nth-of-type(2) {
+  height: 30%;
+  justify-content: space-between;
+}
+.fourteen > .row > div > section:nth-of-type(2) > input {
+  width: 68%;
+  height: 55px;
+  border-radius: 5px;
+  background-color: rgba(255, 253, 253, 0.316);
+  outline: none;
+  font-size: 20px;
+  padding-left: 20px;
+  border: none;
+}
+.fourteen > .row > div > section:nth-of-type(2) > input::-moz-placeholder {
+  font-size: 20px;
+  color: white;
+  font-family: "work";
+}
+.fourteen > .row > div > section:nth-of-type(2) > input::placeholder {
+  font-size: 20px;
+  color: white;
+  font-family: "work";
+}
+.fourteen > .row > div > section:nth-of-type(2) > a {
+  width: 30%;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 5px;
+  color: rgb(70, 70, 70);
+  position: relative;
+  overflow: hidden;
+}
+.fourteen > .row > div > section:nth-of-type(2) > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.fourteen > .row > div > section:nth-of-type(2) > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 55px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.363);
+  transition: 0.4s;
+}
+.fourteen > .row > div > section:nth-of-type(3) {
+  height: 10%;
+  justify-content: flex-start;
+}
+.fourteen > .row > div > section:nth-of-type(3) > i {
+  width: 10%;
+  font-size: 15px;
+  color: gray;
+  margin-right: 5px;
+}
+.fourteen > .row > div > section:nth-of-type(3) > p {
+  font-size: 15px;
+  color: gray;
+  font-family: "work";
+}
+.fourteen > .row > div > section:nth-of-type(3) > p > a {
+  font-size: 15px;
+  color: gray;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+.fourteen > .row > div > section:nth-of-type(3) > p > a:hover {
+  color: white;
+}
+
+.fifteen {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifteen > .row {
+  width: 85%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.fifteen > .row > div {
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifteen > .row > div:nth-of-type(1) {
+  width: 40%;
+  align-content: center;
+}
+.fifteen > .row > div:nth-of-type(1) > section {
+  width: 80%;
+  height: 30%;
+  border: 1px solid gray;
+}
+.fifteen > .row > div:nth-of-type(1) > section > * {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.fifteen > .row > div:nth-of-type(1) > section > i {
+  width: 15%;
+  height: 100%;
+  justify-content: center;
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(1) > section > span {
+  width: 85%;
+  height: 100%;
+  padding-left: 30px;
+  justify-content: flex-start;
+  border-left: 1px solid gray;
+}
+.fifteen > .row > div:nth-of-type(1) > section > span > * {
+  width: 100%;
+}
+.fifteen > .row > div:nth-of-type(1) > section > span > p {
+  font-size: 30px;
+  font-family: "work";
+}
+.fifteen > .row > div:nth-of-type(1) > section > span > p > span {
+  font-size: 30px;
+  font-family: "prata";
+  font-weight: lighter;
+}
+.fifteen > .row > div:nth-of-type(1) > section > span > a {
+  font-size: 20px;
+  transition: 0.4s;
+  color: rgb(94, 92, 92);
+}
+.fifteen > .row > div:nth-of-type(1) > section > span > a:hover {
+  text-decoration: underline;
+}
+.fifteen > .row > div:nth-of-type(2) {
+  width: 60%;
+}
+.fifteen > .row > div:nth-of-type(2) > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) {
+  height: 30%;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div > * {
+  width: 100%;
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div > label {
+  font-family: "work";
+  margin-bottom: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div > input {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div > input::-moz-placeholder {
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(1) > div > input::placeholder {
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) {
+  height: 50%;
+  align-content: center;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) > * {
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) > label {
+  font-family: "work";
+  align-items: center;
+  height: 30%;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) > textarea {
+  height: 70%;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) > textarea::-moz-placeholder {
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(2) > textarea::placeholder {
+  font-size: 20px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) {
+  height: 20%;
+  justify-content: space-between;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(1) {
+  width: 60%;
+  justify-content: flex-start;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(1) > p {
+  font-size: 15px;
+  color: gray;
+  font-family: "work";
+  padding-right: 30px;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(1) > p > i {
+  font-size: 15px;
+  color: gray;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(1) > p > a {
+  font-size: 15px;
+  color: gray;
+  transition: 0.4s;
+  text-decoration: underline;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(1) > p > a:hover {
+  color: black;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(2) {
+  width: 40%;
+  justify-content: flex-end;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(2) > a {
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(2) > a:hover::after {
+  height: 100%;
+  border-radius: 0 0 0 0;
+  top: 0;
+}
+.fifteen > .row > div:nth-of-type(2) > form > div:nth-of-type(3) > span:nth-of-type(2) > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 60px;
+  left: 0;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.363);
+  transition: 0.4s;
+}
+
+.footer {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+}
+.footer > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer > .row > figure {
+  width: 30%;
+  height: 80%;
+}
+.footer > .row > figure > img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40% 25% 50% 20%;
+}
+.footer > .row > nav {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.footer > .row > nav > p {
+  font-size: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: "prara";
+  font-style: italic;
+  transition: 0.4s;
+}
+.footer > .row > nav > p:hover {
+  font-size: 40px;
+  color: white;
+  text-shadow: 5px 5px 10px white;
+}
+.footer > .row > nav > a {
+  width: 60px;
+  height: 60px;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 1s;
+}
+.footer > .row > nav > a:hover {
+  box-shadow: 0 0 10px white;
+  background-color: white;
+}
+.footer > .row > nav > a:hover > i {
+  color: black;
+}
+.footer > .row > nav > a > i {
+  color: white;
+  font-size: 40px;
+  transition: 0.4s;
+}/*# sourceMappingURL=local.css.map */

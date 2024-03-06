@@ -1,0 +1,28 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+main {
+  width: 100%;
+}
+main .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section, main header, main aside, main footer, main figure, main article {
+  display: flex;
+}
+main li {
+  list-style-type: none;
+}
+main a {
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=global.css.map */
