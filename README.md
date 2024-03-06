@@ -4,7 +4,7 @@
 
 # first page
 
-![1](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/e68e331c-d4e6-4aa1-9346-072e7ef224d1)
+![img1](https://github.com/SajedehEydi/Resonance-Creative-Studio/assets/155808160/38a23374-9c3c-4a07-968c-90c236f158ce)
 
 
 # other page
