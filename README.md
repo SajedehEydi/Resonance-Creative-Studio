@@ -11,7 +11,7 @@
 
 ![2](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/8da28a2e-93c3-40b7-a6b4-122f27d878cd)
 
-- [Demo Project]( https://sajedeheydi.github.io/Professional-branding-design-services./)
+- [Demo Project]( https://sajedeheydi.github.io/Resonance-Creative-Studio/)
 
 - coded by : Sajede Eydi Goltappehei🌻
 
