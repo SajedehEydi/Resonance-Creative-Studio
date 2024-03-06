@@ -1,5 +1,4 @@
 # Resonance-Creative-Studio
-# Professional-branding-design-services.
 
 **hope you enjoy 🙃**
 
